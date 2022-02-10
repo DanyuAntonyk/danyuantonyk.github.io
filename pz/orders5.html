@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <title>Document</title>
+    <style>
+        .sofia{
+            font-family: 'Sofia Pro', sans-serif;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="flex justify-center space-x-6 py-3.5 bg-black sofia font-light ">
+            <div class="text-white" >Free Shipping over $75.00</div>
+            <div class="text-gray-700">|</div>
+            <div class="text-white">30-Day Returns</div>
+        </div>
+
+        <div class="flex items-center sofia space-x-10 p-6">
+            <img src="./icons/logo.png" class="max-h-9">
+            <div class="rounded-full bg-gray-100 grow items-center flex p-4">
+                <img src="./icons/glass.png" class="max-h-3.5">
+                <div class="font-light text-gray-500">Search for a product</div>
+            </div>
+            <div class="flex items-center space-x-3.5">
+                <img src="./icons/question-circle.png" class="max-h-6">
+                <div class="font-semibold text-gray-700">Help</div>
+            </div>
+            <div class="flex items-center space-x-3.5">
+                <img src="./icons/user-circle.png" class="max-h-6">
+                <div class="font-semibold text-gray-700">Account</div>
+            </div>
+            <div class="flex items-center space-x-3.5">
+                <img src="./icons/icon.png" class="max-h-6">
+                <div class="font-semibold text-gray-700">Cart</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex justify-center sofia space-x-20 bg-gray-100 py-3.5 font-semibold text-gray-700">
+        <div>Chemicals</div>
+        <div>Equipment</div>
+        <div>Parts & Hardware</div>
+        <div>Accessories</div>
+        <div>Above Ground Pools</div>
+        <div>Pool Covers</div>
+        <div>Spa Supplies</div>
+        <div>Brands</div>
+    </div>
+
+    <div class="" style="background-image: url(./icons/myAccount.png);">
+        <div class="text-4xl py-10 text-white mx-auto">My Account</div>
+    </div>
+    </header>
+
+    <div class="max-w-7xl sofia flex justify-between mt-10 mx-auto">
+        <div class="space-y-5 text-gray-700 ">
+            <div class="">Account Dashboard</div>
+            <div class="border-l-2 border-blue-600  font-semibold text-black">Orders</div>
+            <div class="">Returns</div>
+            <div class="">Rewards</div>
+            <div class="">Addresses</div>
+            <div class="">Settings</div>
+        </div>
+   
+        <div class="w-4/5 space-y-6">
+            
+            <div class="flex justify-between">
+                <div class="text-3xl">Order #12342323</div>
+                <div class="flex items-center space-x-2.5">
+                    <div class="text-sky-500 font-semibold text-sm  px-2 bg-blue-100 rounded-full py-2 px-3">Shipped</div>
+                    <div class="bg-white border-2 rounded-full py-3 px-6 font-bold sofia text-gray-700 text-sm">Print</div>
+                    <div class="bg-amber-500 rounded-full py-3 px-6 font-bold sofia text-white text-sm">Track</div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-6 gap-6">
+                <div class="col-start-1 col-end-3 bg-gray-100 px-6 divide-y divide-gray-300 pt-4 pb-10 space-y-2 rounded-md">
+                    <div class="sofia font-semibold">Shipping Address</div>
+                    <div class="text-sm text-gray-700 space-y-1 pt-2">
+                        <div>James Klein</div>
+                        <div>12324 E Main St.</div>
+                        <div>San Diego, CA 22342</div>
+                    </div>
+                </div>
+                <div class="col-start-3 col-end-5 bg-gray-100 divide-y divide-gray-300 pt-4 px-6 space-y-2 rounded-md">
+                    <div class="sofia font-semibold">Payment Method</div>
+                    <div class="flex items-center pt-2">
+                        <img src="./icons/Mastercard.png" class="h-6">
+                        <div class="flex text-sm text-gray-700">
+                            <div>Mastercard</div>
+                            <div>****2426</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-start-5 col-end-7 bg-gray-100 divide-y divide-gray-300 pt-4 px-6 space-y-2 rounded-md">
+                    <div class="sofia font-semibold">Details</div>
+                    <div class="text-sm text-gray-700 font-semibold pt-2 space-y-2">
+                        <div class="flex justify-between">
+                            <div>Order Date</div>
+                            <div>12/25/2020</div>
+                        </div>
+                        <div class="flex justify-between">
+                            <div>Carrier</div>
+                            <div>FedEx Ground</div>
+                        </div>
+                        <div class="flex justify-between">
+                            <div>Tracking #</div>
+                            <div>1232443534</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-start-1 col-end-7 bg-white border-2 space-y-4 rounded-md">
+                    <div class="flex bg-gray-100 justify-between pt-3.5 px-6 pb-3">
+                        <div class="flex items-center space-x-6">
+                            <div class="text-xl font-semibold font-semibold">Order Contents</div>
+                            <div class="text-sm text-gray-500 font-medium">Estimated Delivery: 12/24/2020</div>
+                        </div>
+                        
+                            <div class="bg-white border-2 rounded-full py-3 px-6 font-bold sofia text-gray-700 text-sm">Buy Again</div>
+                     
+                    </div>
+
+                    <div class="flex mx-6 pb-5 justify-between items-center">
+                            <div class="flex space-x-9">
+                                <img src="./icons/drain.png" class="w-14">
+                                <div class="space-y-2">
+                                    <div class="text-gray-700 text-gray-sm">Inlet Fitting, Return Line Venturi, Infusion, Black</div>
+                                    <div class="flex space-x-4">
+                                        <div class="font-bold">$24.00</div>
+                                        <div class="text-gray-700 text-xs">Qt: 1</div>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="bg-white border-2 rounded-full py-3 px-6 font-bold sofia text-gray-700 text-sm">Review</div>
+                    </div>
+
+                    <div class="flex mx-6 pb-5 justify-between items-center">
+                            <div class="flex space-x-9">
+                            <img src="./icons/net.png" class="w-16">
+                            <div class="space-y-2">
+                                <div class="text-gray-700 text-gray-sm">20” Animal Leaf Rake Net with standard bag</div>
+                                <div class="flex space-x-4">
+                                    <div class="font-bold">$24.00</div>
+                                    <div class="text-gray-700 text-xs">Qt: 1</div>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="bg-white border-2 rounded-full py-3 px-6 font-bold sofia text-gray-700 text-sm">Review</div>
+                    </div>
+
+                    <div class="flex mx-6 pb-5 justify-between items-center">
+                        <div class="flex space-x-9">
+                            <img src="./icons/light.png" class="w-16">
+                            <div class="space-y-2">
+                                <div class="text-gray-700 text-gray-sm">Brilliant Wonders 1.5” Color LED Pool/Spa Light</div>
+                                <div class="flex space-x-4">
+                                    <div class="font-bold">$24.00</div>
+                                    <div class="text-gray-700 text-xs">Qt: 1</div>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="bg-white border-2 rounded-full py-3 px-6 font-bold sofia text-gray-700 text-sm">Review</div>
+                    </div>
+
+                    <div class="flex mx-6 pb-5 justify-between items-center">
+                        <div class="flex space-x-9">
+                            <img src="./icons/board.png" class="w-16">
+                            <div class="space-y-2">
+                                <div class="text-gray-700 text-gray-sm">Brilliant Wonders 1.5” Color LED Pool/Spa Light</div>
+                                <div class="flex space-x-4">
+                                    <div class="font-bold">$24.00</div>
+                                    <div class="text-gray-700 text-xs">Qt: 1</div>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="bg-white border-2 rounded-full py-3 px-6 font-bold sofia text-gray-700 text-sm">Review</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex justify-end">
+                <div class="grid grid-cols-2 text-gray-700 text-gray text-sm w-64">
+                    <div class="col-start-1 col-end-1 pl-5 py-2.5">Subtotal</div>
+                    <div class="col-start-2 col-end-2 justify-self-end pr-5 py-2.5">$50.00</div>
+                    <div class="col-start-1 col-end-1 pl-5 py-2.5">Shipping</div>
+                    <div class="col-start-2 col-end-2 justify-self-end pr-5 py-2.5">$2.00</div>
+                    <div class="col-start-1 col-end-1 pl-5 py-2.5">Tax</div>
+                    <div class="col-start-2 col-end-2 justify-self-end pr-5 py-2.5">$5.00</div>
+                    <div class="col-start-1 col-end-3 bg-gray-100 rounded-md flex justify-between py-2.5 pl-5 pr-6">
+                        <div>Total</div>
+                        <div class="font-semibold">$57.00</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer class="space-y-11 bg-gray-700 ">
+        
+        <div class="space-y-11 pt-10 mt-20">
+            <div class="flex bg-gray-600 py-7 max-w-7xl rounded-md text-white items-center px-60 space-x-6 mt-10 mx-auto">
+                <div class="text-xl font-semibold">Need Help?</div>
+                <div class="flex space-x-4">
+                    <div class="flex items-center space-x-2 border-2 border-white rounded-full py-4 px-6">
+                        <img src="./icons/phone.png"> 
+                        <div class="text-sm font-semibold sofia flex">Call Us</div>
+                    </div>
+                    <div class="flex items-center space-x-2  border-2 border-white rounded-full py-4 px-6">
+                        <img src="./icons/letter.png">
+                        <div class="text-sm font-semibold sofia">Email Us</div>
+                    </div>
+                    <div class="flex items-center space-x-2  border-2 border-white rounded-full py-4 px-6">
+                        <img src="./icons/questionWhite.png">
+                        <div class="text-sm font-semibold sofia">Help Center</div>
+                    </div>
+                </div>
+                <div class="text-sm font-semibold">Customer Service is open<br> Monday-Friday, 9AM-6PM CT</div>
+            </div>
+
+        <div class="flex space-x-20 justify-center">
+            <div class="space-y-2.5 w-48">
+                <div class="text-sm font-semibold text-white">Order Tracking</div>
+                <div class="text-sm font-semibold text-white">Shipping Info</div>
+                <div class="text-sm font-semibold text-white">Return Policy</div>
+            </div>
+
+            <div class="space-y-2.5 w-48">
+                <div class="text-sm font-semibold text-white">About us</div>
+                <div class="text-sm font-semibold text-white">Locations</div>
+                <div class="text-sm font-semibold text-white">News</div>
+            </div>
+
+            <div class="space-y-2.5 w-48">
+                <div class="text-sm font-semibold text-white">Privacy Policy</div>
+                <div class="text-sm font-semibold text-white">PoolZoom Blog</div>
+                <div class="text-sm font-semibold text-white">FAQ</div>
+            </div>
+        </div>
+
+        </div>
+<div class="grid grid-cols-7 bg-gray-700 border-t-2 border-gray-500">
+    <div class="col-start-1 col-end-3  space-y-2 py-10 px-20 border-r-2 border-gray-500">
+        <div class="flex space-x-2 justify-center">
+            <img src="./icons/Mastercard.png" class="h-10 w-15">
+            <img src="./icons/Discover.png" class="h-10 w-15">
+            <img src="./icons/Pay Pal.png" class="h-10 w-15">
+            <img src="./icons/eproved.png" class="h-10 w-15">
+        </div>
+        <div  class="flex space-x-2 justify-center">
+            <img src="./icons/Visa.png" class="h-10 w-15">
+            <img src="./icons/American Express.png" class="h-10 w-15">
+            <img src="./icons/Amazon.png" class="h-10 w-15">
+            <img src="./icons/geoTrustpng.png" class="h-10 w-15">
+        </div>
+    </div>
+    <div class="col-start-3 col-end-6 mt-9 space-y-1.5 px-20 ">
+        <div class="text-gray-300 text-sm">Sign up for savings and tips</div>
+        <div class="bg-white rounded-full flex justify-between pl-4 items-center border-2 ">
+            <div class="flex items-center space-x-2">
+                <img src="./icons/letterGray.png" class="w-4 h-3">
+                <div class="text-gray-500">Your email</div>
+            </div>
+            <div class="sofia text-white text-sm font-semibold py-3 px-6 bg-amber-500 rounded-full m-0.5">Subscribe</div>
+        </div>
+    </div>
+    <div class="col-start-6 col-end-8 flex border-l-2 space-x-6 justify-center items-center border-gray-500">
+        <img src="./icons/facebook.png" class="h-5">
+        <img src="./icons/youtube.png" class="h-5">
+        <img src="./icons/twiter.png" class="h-5">
+        <img src="./icons/google.png" class="h-5">
+        <img src="./icons/pinterest.png" class="h-5">
+    </div>
+</div>
+    </footer>
+</body>
+</html>

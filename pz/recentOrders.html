@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <title>Document</title>
+    <style>
+        .sofia{
+            font-family: 'Sofia Pro', sans-serif;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="flex justify-center space-x-6 py-3.5 bg-black sofia font-light ">
+            <div class="text-white" >Free Shipping over $75.00</div>
+            <div class="text-gray-700">|</div>
+            <div class="text-white">30-Day Returns</div>
+        </div>
+
+        <div class="flex items-center sofia space-x-10 p-6">
+            <img src="./icons/logo.png" class="max-h-9">
+            <div class="rounded-full bg-gray-100 grow items-center flex p-4">
+                <img src="./icons/glass.png" class="max-h-3.5">
+                <div class="font-light text-gray-500">Search for a product</div>
+            </div>
+            <div class="flex items-center space-x-3.5">
+                <img src="./icons/question-circle.png" class="max-h-6">
+                <div class="font-semibold text-gray-700">Help</div>
+            </div>
+            <div class="flex items-center space-x-3.5">
+                <img src="./icons/user-circle.png" class="max-h-6">
+                <div class="font-semibold text-gray-700">Account</div>
+            </div>
+            <div class="flex items-center space-x-3.5">
+                <img src="./icons/icon.png" class="max-h-6">
+                <div class="font-semibold text-gray-700">Cart</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex justify-center sofia space-x-20 bg-gray-100 py-3.5 font-semibold text-gray-700">
+        <div>Chemicals</div>
+        <div>Equipment</div>
+        <div>Parts & Hardware</div>
+        <div>Accessories</div>
+        <div>Above Ground Pools</div>
+        <div>Pool Covers</div>
+        <div>Spa Supplies</div>
+        <div>Brands</div>
+    </div>
+
+    <div class="" style="background-image: url(./icons/myAccount.png);">
+        <div class="text-4xl py-10 text-white mx-auto">My Account</div>
+    </div>
+    </header>
+
+    <div class="max-w-7xl sofia flex justify-between mt-10 mx-auto">
+        <div class="space-y-5 text-gray-700 ">
+            <div class="border-l-2 border-blue-600  font-semibold text-black">Account Dashboard</div>
+            <div class="">Orders</div>
+            <div class="">Returns</div>
+            <div class="">Rewards</div>
+            <div class="">Addresses</div>
+            <div class="">Settings</div>
+        </div>
+    <div class="">
+            <div class="text-3xl">Dashboard</div>
+
+            <div class="grid grid-cols-4 gap-6 ">
+
+                <div class="col-start-1 col-end-5 align-baseline bg-gray-100 flex py-5 space-x-28 px-5 sofia">
+                    <div class="flex items-center space-x-6">
+                        <img src="./icons/board.png" class="max-h-12">
+                        <div class="text-gray-700">Earn 20 pzRewards points by letting us know how you like your recent purchase!</div>
+                    </div>
+                    <div class="flex space-x-12 items-center">
+                        <div class="text-sky-500 font-semibold text-sm">Dismiss</div>
+                        <div class="text-white bg-amber-500 rounded-full py-3 px-6 font-bold text-sm">Review</div>
+                    </div>
+                </div>
+
+                <div class="col-start-1 col-end-3 bg-gray-100 pt-6 pb-9   text-center">
+                    <div class="flex justify-center">
+                        <div class="text-xl font-semibold text-gray-700">Your pzRewards</div>
+                        <img src="./icons/question-circle.png" class="">
+                    </div>
+                    <div class="text-7xl justify-center mt-7">120</div>
+                    <div class="text-gray-700 text-sm mt-0.5">Redeem for $5 or wait till 200 points for $20</div>
+                    <div class="py-4 px-6 bg-white rounded-full border-2 sofia text-gray-700 inline-block mt-6">Redeem</div>
+                </div>
+
+                <div class="col-start-3 col-end-5 bg-gray-100  pb-9 text-center pt-6">
+                    <div class="flex justify-center">
+                        <img src="./icons/users.png" class="">
+                        <div class="text-xl font-semibold text-gray-700">Refer a Friend!</div>
+                    </div>
+                    <div class="text-gray-700 mt-11">Earn 20 pzRewards points if <br> refer a friend to us</div>
+                    <div class="py-4 px-6 mt-14 bg-white rounded-full border-2 sofia text-gray-700 inline-block">Refer a Friend!</div>
+                </div>
+
+                <div class="col-start-1 col-end-5 align-baseline bg-gray-100 pt-6 ">
+                    <div class="flex justify-between mx-6">
+                        <div class="text-xl text-gray-700 font-semibold">Recent Orders</div>
+                        <div class="text-sky-500 font-semibold text-sm">View All Orders</div>
+                    </div>
+                    <div class="bg-red-100 rounded-md py-2.5 px-4 m-6">
+                        <div class="flex items-baseline space-x-3">
+                            <img src="./icons/dagger.png" class="h-4 w-4">
+                            <div class="sofia font-semibold">Order #1234232 is on hold.</div>
+                        </div>
+                        <div class="sofia text-gray-700 pl-7">Please call us at 888 756 9666 to resolve this issue.</div>
+                    </div>
+                    <div class="flex justify-between bg-white rounded-md border-2 m-6 py-5 ">
+                        <div class="flex space-x-7 mx-7 items-center">
+                            <img src="./icons/light.png" class="h-14 ">
+                            <img src="./icons/drain.png" class="h-10">
+                            <img src="./icons/net.png" class="h-14">
+                        </div>
+                        <div class="flex mx-7 items-center">
+                            <div class="text-sm text-gray-700">Total</div>
+                            <div class="font-semibold">$24.00</div>
+                            <div class="text-sky-500 font-semibold text-sm  px-2 bg-blue-100 rounded-full">Shipped</div>
+                            <div>Details</div>
+                            <div>Track</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    </div>
+
+
+    <footer class="space-y-11 bg-gray-700 ">
+        
+        <div class="space-y-11">
+            <div class="flex bg-gray-600 py-7 max-w-7xl rounded-md text-white items-center px-60 space-x-6 mt-10 mx-auto">
+                <div class="text-xl font-semibold">Need Help?</div>
+                <div class="flex space-x-4">
+                    <div class="flex items-center space-x-2 border-2 border-white rounded-full py-4 px-6">
+                        <img src="./icons/phone.png"> 
+                        <div class="text-sm font-semibold sofia flex">Call Us</div>
+                    </div>
+                    <div class="flex items-center space-x-2  border-2 border-white rounded-full py-4 px-6">
+                        <img src="./icons/letter.png">
+                        <div class="text-sm font-semibold sofia">Email Us</div>
+                    </div>
+                    <div class="flex items-center space-x-2  border-2 border-white rounded-full py-4 px-6">
+                        <img src="./icons/questionWhite.png">
+                        <div class="text-sm font-semibold sofia">Help Center</div>
+                    </div>
+                </div>
+                <div class="text-sm font-semibold">Customer Service is open<br> Monday-Friday, 9AM-6PM CT</div>
+            </div>
+
+        <div class="flex space-x-20 justify-center">
+            <div class="space-y-2.5 w-48">
+                <div class="text-sm font-semibold text-white">Order Tracking</div>
+                <div class="text-sm font-semibold text-white">Shipping Info</div>
+                <div class="text-sm font-semibold text-white">Return Policy</div>
+            </div>
+
+            <div class="space-y-2.5 w-48">
+                <div class="text-sm font-semibold text-white">About us</div>
+                <div class="text-sm font-semibold text-white">Locations</div>
+                <div class="text-sm font-semibold text-white">News</div>
+            </div>
+
+            <div class="space-y-2.5 w-48">
+                <div class="text-sm font-semibold text-white">Privacy Policy</div>
+                <div class="text-sm font-semibold text-white">PoolZoom Blog</div>
+                <div class="text-sm font-semibold text-white">FAQ</div>
+            </div>
+        </div>
+
+        </div>
+<div class="grid grid-cols-7 bg-gray-700 border-t-2 border-gray-500">
+    <div class="col-start-1 col-end-3  space-y-2 py-10 px-20 border-r-2 border-gray-500">
+        <div class="flex space-x-2 justify-center">
+            <img src="./icons/Mastercard.png" class="h-10 w-15">
+            <img src="./icons/Discover.png" class="h-10 w-15">
+            <img src="./icons/Pay Pal.png" class="h-10 w-15">
+            <img src="./icons/eproved.png" class="h-10 w-15">
+        </div>
+        <div  class="flex space-x-2 justify-center">
+            <img src="./icons/Visa.png" class="h-10 w-15">
+            <img src="./icons/American Express.png" class="h-10 w-15">
+            <img src="./icons/Amazon.png" class="h-10 w-15">
+            <img src="./icons/geoTrustpng.png" class="h-10 w-15">
+        </div>
+    </div>
+    <div class="col-start-3 col-end-6 mt-9 space-y-1.5 px-20 ">
+        <div class="text-gray-300 text-sm">Sign up for savings and tips</div>
+        <div class="bg-white rounded-full flex justify-between pl-4 items-center border-2 ">
+            <div class="flex items-center space-x-2">
+                <img src="./icons/letterGray.png" class="w-4 h-3">
+                <div class="text-gray-500">Your email</div>
+            </div>
+            <div class="sofia text-white text-sm font-semibold py-3 px-6 bg-amber-500 rounded-full m-0.5">Subscribe</div>
+        </div>
+    </div>
+    <div class="col-start-6 col-end-8 flex border-l-2 space-x-6 justify-center items-center border-gray-500">
+        <img src="./icons/facebook.png" class="h-5">
+        <img src="./icons/youtube.png" class="h-5">
+        <img src="./icons/twiter.png" class="h-5">
+        <img src="./icons/google.png" class="h-5">
+        <img src="./icons/pinterest.png" class="h-5">
+    </div>
+</div>
+    </footer>
+</body>
+</html>
