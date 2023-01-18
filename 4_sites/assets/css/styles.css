@@ -110,6 +110,8 @@ position: relative;
     background-color: rgb(241, 252, 239);
     padding-top: 3%;
     padding-bottom: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
     text-align: center;
 }
 
@@ -138,6 +140,8 @@ position: relative;
     grid-template-columns: 32% 32% 32%;
     justify-content: space-between;
     row-gap: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -425,7 +429,6 @@ footer{
         grid-template-columns: 100%;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 25%;
       }
 
     .galary-div img{
@@ -481,5 +484,9 @@ text-align: center;
 
     .top-section-text{
         font-size: 20px;
+    }
+
+    .galary-div{
+        margin-bottom: 25%;
     }
 }
