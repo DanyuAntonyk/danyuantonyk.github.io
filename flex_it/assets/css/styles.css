@@ -1,0 +1,654 @@
+body{
+    margin: 0;
+    font-family: montserrat, sans-serif;
+}
+
+h1,h2,h3,h4.h5{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+header{
+    background-color: black;
+    max-width: 100%;
+    
+}
+
+.nav-pc{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+.top-menu{
+   width: 100%;
+   background-size:cover;
+}
+
+.top-menu-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:fit-content;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    gap:30px;
+}
+
+.h1-stely{
+    font-size: 80px;
+    color: white;
+    font-weight: 500;
+}
+
+.h2-stely{
+    color: white;
+    font-size: 40px;
+}
+
+.top-btn{
+    display: flex;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 52px;
+    padding-right: 52px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 9999px;
+    width: 430px;
+    font-size: 24px;
+    font-weight: 600;
+    background-color: #ff6933;
+    color: white;
+    border-color: transparent;
+}
+
+.plus{
+ max-width: 1200px;
+ padding-left: 30px;
+ padding-right: 30px;
+ margin-left: auto;
+ margin-right: auto;
+ padding-bottom: 90px;
+ display:flexbox;
+ margin-top: 5%;
+}
+
+.plus ul{
+    list-style:decimal;
+}
+
+.plus h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 5%;
+    font-weight: 400;
+    color: #202020;
+}
+
+.plus li{
+    margin-bottom: 3%;
+    font-size: 18px;
+    font-weight: 400;
+    color: #202020;
+}
+
+.chomy-my{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 1200px;
+    max-height: fit-content;
+    color: white;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.chomy-icons-div{
+ display: flex;
+ font-size: 40px;
+gap: 20px;
+max-height: 50px;
+align-items: center;
+font-weight: 600;
+color: #ff6933;
+
+}
+
+.icons{
+    max-width: 40px;
+    max-height: 40px;
+    
+}
+
+.chomy-my-right-content{
+    height: 200px;
+    width: 40%;
+    grid-template-columns: 50% 50%;
+    display: grid;
+   margin-top: auto;
+   margin-bottom: auto;
+    align-content: space-between;
+    justify-content: space-between;
+  
+}
+
+.chomy-my-left-content{
+    flex-basis: 50%;
+    
+}
+
+.chomy-p{
+    margin: 0;
+    font-size: 18px;
+}
+
+.chomy-my-left-content h3{
+    font-size: 40px;
+    font-weight: 500;
+    text-shadow:1px 2px white;
+    color: #ff6933;
+}
+
+.chomy-my-left-content p{
+    font-size: 18px;
+}
+
+.stela{
+max-width: 1200px;
+ margin-left: auto;
+ margin-right: auto;
+ padding-left: 30px;
+ padding-right: 30px;
+ display:flexbox;
+ margin-top: 5%;
+ text-align: center;
+ color: white;
+padding-top: 5%;
+padding-bottom: 5%;
+}
+
+.stela h3{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 5%;
+    font-weight: 500;
+    text-shadow:1px 2px white;
+    color: #ff6933;
+}
+
+.posluhu{
+ display: flexbox;
+ max-width: 1200px;
+ padding-left: 30px;
+ padding-right: 30px;
+ padding-bottom: 90px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.posluhu h2{
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.cart-line{
+    display: flex;
+    gap: 25px;
+}
+
+.cart{
+    max-width: 384px;
+    border: #8d8d8d 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.cart h5{
+    margin: 0;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: #202020;
+}
+
+.cart h6{
+    margin: 0;
+    padding-bottom: 12px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #202020;
+}
+
+.cart p{
+    margin: 0;
+    font-size: 18px;
+}
+
+.cart-img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.btn-cart{
+    width: 100%;
+    display: flexbox;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ff6933;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-size: 18px;
+    border-color: transparent;
+}
+
+.etapi{
+    display: flexbox;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+ padding-right: 30px;
+ gap: 2%;
+}
+
+.etapi h5{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.etapi-line{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.etapi-cart{
+    max-width: 280px;
+    display: flexbox;
+   text-align: center;
+   font-size: 18px;
+   font-weight: 400;
+}
+
+.etapi-icons{
+    max-width: 80px;
+    border: #ff6933 2px solid;
+    border-radius: 9999px;
+    padding: 10px;
+}
+
+.etapi-cart h6{
+    font-size: 25px;
+    margin: 0;
+    font-weight: 500;
+    padding-top: 12px;
+}
+
+.galary-div{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.galary{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    gap: 2%;
+    grid-template-columns: 33% 33% 33% ;
+    margin-bottom: 2%;
+    padding-left: 30px;
+ padding-right: 30px;
+}
+
+.galary-img{
+    max-height: 280px;
+    width: 100%;
+}
+
+.galary-div h5{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.contact-form-bg{
+    background-color: #202020;
+    z-index: 1;
+}
+
+.cf{
+    max-width: 1200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    max-height: 340px;
+
+}
+
+.contact-form{
+    display: grid;
+    gap: 10px;
+}
+
+.contacts{
+   width: 500px;
+   height: 30px;
+   border-radius: 5px;
+   border-color: transparent;
+}
+
+.textarea{
+    width: 500px;
+    height: 60px;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+.submit-btn{
+    max-width: 250px;
+    padding: 15px;
+    border-radius: 9999px;
+    font-size: 18px;
+    color: white;
+    background-color: #ff6933;
+    border-color: transparent;
+}
+
+.danni{
+    display: flex;
+    flex-direction: column;
+    place-content: space-between;
+    font-size: 30px;
+    color: white;
+}
+
+.danni p{
+    margin: 0;
+}
+
+footer{
+    display: flexbox;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding: 30px;
+    font-size: 18px;
+}
+
+footer ul{
+    list-style: none;
+ display: flex;
+ gap: 50px;
+ margin-left: auto;
+ margin-right: auto;
+ max-width: fit-content;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-logo{
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.hashi-contacti{
+    font-size: 18px;
+}
+
+.dropdown{
+    display: none;
+}
+
+
+@media screen and (max-width: 1050px) {
+   .danni{
+     font-size: 24px;
+     margin-right: 20px;
+   }
+}
+
+@media screen and (max-width: 850px) {
+    .cart-line{
+        display: grid;
+        
+    }
+    .cart{
+        display: flexbox;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+    }
+    .chomy-my{
+        display: grid;
+    }
+    .chomy-my-right-content{
+        margin-top: 5%;
+        max-height: 100px;
+        display: flex;
+        gap: 2%;
+        width: 100%;
+    }
+    .etapi-line{
+        display: grid;
+        grid-template-columns:280px;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .galary{
+        display: grid;
+        grid-template-columns: max-content;
+        justify-content: center;
+        margin-bottom: 25%;
+    }
+
+    .cf{
+        display: grid;
+        justify-content: center;
+        gap: 25px;
+        max-width: 508px;
+    }
+
+    .danni{
+        gap: 10px;
+    }
+.galary-div{
+    height: fit-content;
+    max-height: fit-content;
+}
+
+    .galary{
+        height: fit-content;
+        max-height: fit-content;
+    }
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+   width: fit-content;
+   white-space:nowrap ;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 4;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+
+  .drop-icon{
+    max-width: 23px;
+    max-height: 23px;
+  }
+
+@media screen and (max-width: 800px){
+    .h1-stely{
+        text-shadow: 
+        4px 4px 2px black, 
+        0 4px 2px black, 
+        -4px 0 2px black, 
+        0 -4px 2px black;
+    }
+
+    .danni p{
+        font-size: 30px;
+    }
+
+    .danni .hashi-contacti{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 750px){
+ .nav-pc{
+    display: none;
+ }
+ .nav-mobile{
+  display: none;
+}
+
+.h1-stely{
+    font-size: 60px;
+}
+
+.h2-stely{
+ font-size: 30px;
+}
+
+.top-btn{
+    width: fit-content;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer-pc{
+    display: none;
+}
+
+.galary{
+    margin-bottom: 40%;
+}
+
+.chomy-my-right-content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 25px;
+    margin-bottom: 10%;
+}
+
+.contacts{
+    width: 100%;
+}
+
+.textarea{
+    width: 100%;
+}
+
+.cf{
+    max-height: fit-content;
+}
+
+.chomy-my{
+    margin-bottom: 5%;
+}
+
+}
+
+@media screen and (max-width: 450px) {
+    .top-menu{
+        background-position: center;
+    }
+
+    .chomy-my{
+        padding-bottom: 25%;
+    }
+
+    .cf{
+        margin-top: 60%;
+    }
+
+    .galary{
+        margin: 0;
+    }
+
+   
+}
+
+@media screen and (max-width: 375px){
+    .posluhu h2{
+        font-size: 30px;
+    }
+
+    .stela h3{
+        font-size: 30px;
+    }
+
+}
