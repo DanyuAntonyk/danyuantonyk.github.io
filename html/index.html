@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="styles.css"> 
+    <style>
+       
+    </style>
+    </head>
+<body>
+    <div id="sidebar">
+    
+        <ul>
+           <li id="li">HTML Tutorial</li>
+              <li id="li">HTML home</li>
+              <li id="li">HTML introduction</li>
+              <li id="li">HTML Editors</li>
+              <li id="li">HTML Basic</li>
+              <li id="li">HTML Elements</li>
+              <li id="li">HTML Attributes</li>
+              <li id="li">HTML Headings</li>
+              <li id="li">HTML Paragraphs</li>
+              <li id="li">HTML Styles</li>
+              <li id="li">HTML Formatting</li>
+              <li id="li">HTML Quotations</li>
+              <li id="li">HTML Comments</li>
+        </ul>   
+      </div>
+<div id="content">
+	<h1>HTML Image Maps</h1> 
+    <div id="justufy">
+    <input type="button" value=" previos ">
+     <input type="button" value=" next ">
+    </div>
+	<hr>
+	<p> With HTML image maps, you can create clickable areas on an image. </p>
+	<hr>
+	<h2>Image Maps</h2>
+	<p>The HTML map tag defines an image map. An image map is an image with clickable areas. The areas are defined with one or more area tags. Try to click on the computer, phone, or the cup of coffee in the image below: </p> <img src="pic/1.jpg">
+	<div id="grey">
+		<h2>Example</h2>
+		<p>Here is the HTML source code for the image map above:</p>
+			<div id="green" class="notranslate"> <span style="color:brown">
+                <span style="color:mediumblue">&lt;</span>
+                 img
+                <span style="color:red"> 
+                 src
+                <span style="color:mediumblue">="workplace.jpg"</span>
+                 alt
+                <span style="color:mediumblue">="Workplace"</span>
+                 usemap
+                <span style="color:mediumblue">="#workmap"</span>
+            </span><span  style="color:mediumblue">&gt;</span></span><br> <br>
+            <span style="color:brown"
+            ><span style="color:mediumblue">&lt;</span>
+             map
+             <span style="color:red"> 
+                name<span style="color:mediumblue">="workmap"</span>
+            </span><span  style="color:mediumblue">&gt;</span></span><br>&nbsp; 
+            <span style="color:brown">
+                
+                <span style="color:mediumblue">&lt;</span>
+                area<span style="color:red"> shape
+                    <span style="color:mediumblue">="rect"
+                    </span> coords
+                    <span style="color:mediumblue">="34,44,270,350"</span> alt
+                    <span style="color:mediumblue">="Computer"</span> 
+                    href<span style="color:mediumblue">="computer.htm"</span>
+                </span><span style="color:mediumblue">&gt;</span></span><br>&nbsp; 
+                <span style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>
+                area<span style="color:red"> shape
+                    <span style="color:mediumblue">="rect"</span>
+                     coords<span style="color:mediumblue">="290,172,333,250"</span>
+                      alt<span  style="color:mediumblue">="Phone"</span> href
+                      <span" style="color:mediumblue">="phone.htm"</span></span>
+                      <span style="color:mediumblue">&gt;</span></span><br>&nbsp; 
+                      <span style="color:brown">
+                        <span style="color:mediumblue">&lt;</span>area
+                        <span style="color:red"> shape
+                            <span  style="color:mediumblue">="circle"
+                            </span> coords<span  style="color:mediumblue">="337,300,44"
+                            </span> alt<span  style="color:mediumblue">="Coffee"
+                            </span> href<span  style="color:mediumblue">="coffee.htm"
+                            </span></span><span  style="color:mediumblue">&gt;</span></span><br>
+                            <span style="color:brown">
+                                <span style="color:mediumblue">&lt;</span>/map
+                                <span style="color:mediumblue">&gt;</span></span>
+			
+		</div>
+         <input type="button" value=" try it yourself "> 
+    </div>
+	<hr>
+	<h2>Image Maps</h2>
+	<p> The idea behind an image is that you should be able to perform different actions depending on where in the image you click. To create an image map you need an image, and some HTML code that describes the clickable areas." </p>
+	<hr>
+	<h2>The Image</h2>
+	<p> The image is inserted using the <code id="tag">&lt;img&gt;</code> tag. The only difference from other images is that you must add a <code id="tag"> usemap</code>: </p>
+	<div id="grey">
+		<div id="green" class="notranslate htmlHigh">
+            <span  style="color:brown">
+                <span  style="color:mediumblue">&lt;</span>img<span  style="color:red"> src
+                    <span style="color:mediumblue">="workplace.jpg"</span> alt
+                    <span style="color:mediumblue">="Workplace"</span> usemap
+                    <span style="color:mediumblue">="#workmap"</span></span>
+                    <span style="color:mediumblue">&gt;</span></span>
+             </div>
+	</div>
+	<p> The usemap value starts with a hash tag # followed by the name of the image map, and is used to create a relationship between the image and the image map. </p>
+	<div id="yelow"> <b>Tip</b>: You can use any image as an image map! </div>
+	<hr>
+	<h2>Create Image Map</h2>
+	<p>Then, add a<code id="tag">&lt;map&gt;</code> element. The map element is used to create an image map, and is linked to the image by using the required <code id="tag">name</code> attribute:</p>
+	<div id="grey">
+        <div id="green">
+        <span style="color: brown;">&lt;map</span> <span style="color: red;">name</span><span style="color: mediumblue;"> ="workmap" &gt;</span>
+    </div>	
+		
+	</div>
+	<p> The name attribute must have the same value as the img 's usemap attribute . </p>
+	<hr>
+	<h2>The Areas</h2>
+	<p>Then, add the clickable areas.</p> 
+    <p>A clickable area is defined using an <code id="tag">&lt;area&gt;</code> element. </p>
+	<h2>Shape</h2> 
+    <p>You must define the shape of the clickable area, and you can choose one of these values:</p>
+	<ul>
+		<li><code id="tag">rect</code> - defines a rectangular region</li>
+		<li><code id="tag">circle</code> - defines a circular region</li>
+		<li><code id="tag">poly</code> - defines a polygonal region</li>
+		<li><code id="tag">default</code> - defines the entire region</li>
+	</ul>
+	<hr>
+	<h2>HTML Image Tags</h2>
+    <table cellspacing="0" cellpadding="10" id="center">
+	<tbody><tr>
+        <th>Tag</th>
+        <th>Description</th>
+        </tr>
+        <tr id="td">
+        <td>&lt;img&gt;</a></td>
+        <td>Defines an image</td>
+        </tr>
+        <tr>
+        <td>&lt;map&gt;</a></td>
+        <td>Defines an image map</td>
+        </tr>
+        <tr id="td">
+        <td>&lt;area&gt;</a></td>
+        <td>Defines a clickable area inside an image map</td>
+        </tr>
+        <tr>
+        <td>&lt;picture&gt;</a></td>
+        <td>Defines a container for multiple image resources</td>
+        </tr>
+</div>
+</tbody>
+</table>
+	<div id="yelow"> For a complete list of all available HTML tags, visit our HTML Tag Reference. </div>
+     <input type="button" value=" previos "> <input type="button" value=" next "> </body>
+
+</html>
